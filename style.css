@@ -1,0 +1,41 @@
+/* common styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* navigation bar styles */
+.menu-container {
+    background: rgba(243, 50, 92, 0.3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 25px;
+}
+.menu-logo {
+    text-transform: uppercase;
+}
+.bouquet{
+    color: red;
+}
+.menus {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menus li {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.menus li > a {
+    text-decoration: none;
+    color: black;
+}
+.menus li > a:hover {
+    color: lightslategray;
+}
