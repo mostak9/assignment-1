@@ -94,7 +94,7 @@ body {
 /* main sections styles */
 
 section {
-    width: 70%;
+    width: 80%;
     margin: 120px auto;
 }
 
@@ -117,6 +117,7 @@ section {
     width: 594px;
     margin: auto;
 }
+
 .featured-box-container {
     text-align: center;
     display: flex;
@@ -145,4 +146,54 @@ section {
     line-height: 35px;
     text-decoration-line: underline;
     margin-top: 10px;
+}
+
+/* retailer section styles */
+
+.retailer-container {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 85px 170px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.retail-box {
+    text-align: center;
+}
+
+.retail-logo {
+    width: 88px;
+}
+
+.retail-text {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* main banner section styles */
+.main-banner-container {
+    padding: 100px 250px;
+    height: 40vh;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.main-banner-img {
+    width: 300px;
+    height: 400px;
+}
+
+.main-banner-title {
+    font-size: 30px;
+}
+
+.main-banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
