@@ -197,3 +197,42 @@ section {
     font-weight: 400;
     line-height: 30px;
 }
+
+/* instagram section styles */
+.insta-section {
+    text-align: center;
+}
+
+.insta-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.insta-box1 {
+    width: 330px;
+    height: 370px;
+    background: url("/images/Flower_01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.insta-box2 {
+    width: 330px;
+    height: 360px;
+    background: url("/images/Rectangle_4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.insta-box3 {
+    width: 330px;
+    height: 360px;
+    background: url("/images/Rectangle_5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.insta-box4 {
+    width: 330px;
+    height: 360px;
+    background: url("/images/Rectangle_6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
