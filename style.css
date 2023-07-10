@@ -211,28 +211,28 @@ section {
 .insta-box1 {
     width: 330px;
     height: 370px;
-    background: url("/images/Flower_01.png");
+    background: url("./images/Flower_01.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 .insta-box2 {
     width: 330px;
     height: 360px;
-    background: url("/images/Rectangle_4.png");
+    background: url("./images/Rectangle_4.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 .insta-box3 {
     width: 330px;
     height: 360px;
-    background: url("/images/Rectangle_5.png");
+    background: url("./images/Rectangle_5.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 .insta-box4 {
     width: 330px;
     height: 360px;
-    background: url("/images/Rectangle_6.png");
+    background: url("./images/Rectangle_6.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
