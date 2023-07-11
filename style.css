@@ -208,6 +208,7 @@ section {
     gap: 24px;
     margin-top: 50px;
 }
+
 .insta-box1 {
     width: 330px;
     height: 370px;
@@ -215,6 +216,7 @@ section {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .insta-box2 {
     width: 330px;
     height: 360px;
@@ -222,6 +224,7 @@ section {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .insta-box3 {
     width: 330px;
     height: 360px;
@@ -229,10 +232,42 @@ section {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .insta-box4 {
     width: 330px;
     height: 360px;
     background: url("./images/Rectangle_6.png");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+/* subscribe section styles */
+.subscribe-section {
+    height: 450px;
+    background-image: url("./images/Rectangle_9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-div {
+    text-align: center;
+}
+input {
+    margin-top: 40px;
+}
+
+input[type="text"] {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 22px;
+    border: none;
+    border-radius: 8px;
+    width: 700px;
+    margin-right: 16px;
 }
