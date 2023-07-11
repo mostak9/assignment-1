@@ -19,6 +19,10 @@ body {
     border: none;
 }
 
+.primary-color {
+    color: #E55473;
+}
+
 /* navigation bar styles */
 .menu-container {
     background: #E55473;
@@ -257,6 +261,7 @@ section {
 .sub-div {
     text-align: center;
 }
+
 input {
     margin-top: 40px;
 }
@@ -270,4 +275,39 @@ input[type="text"] {
     border-radius: 8px;
     width: 700px;
     margin-right: 16px;
+}
+
+/* footer styles */
+
+footer {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111010;
+    text-align: center;
+}
+.footer-div {
+ 
+}
+
+.footer-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.footer-copy {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
